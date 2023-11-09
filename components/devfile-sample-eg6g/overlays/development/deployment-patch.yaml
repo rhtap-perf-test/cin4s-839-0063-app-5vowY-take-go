@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-eg6g
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0063-tenant/cin4s-839-0063-app/devfile-sample-eg6g@sha256:d2808451cd69dee433b27afec458727003b1147e959a5055c13ebe5645c92a87
+        name: my-nodejs
+        resources: {}
+status: {}
